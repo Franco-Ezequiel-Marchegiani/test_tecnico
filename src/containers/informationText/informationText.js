@@ -4,7 +4,7 @@ function InformationText(){
     return(
         <div>
             <span>Jeaper K.Thomas</span>
-            <h1>InformationText </h1>
+            <h1>Dunes Anthrazite Black </h1>
         </div>
     )
 }
