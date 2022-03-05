@@ -4,6 +4,7 @@ import { IntroStyle } from "./intro-style";
 import Swiper from "swiper";
 import "swiper/css/swiper.css";
 import { useState } from "react";
+import InformationImage from "../informationImage/informationImage";
 
 const Intro = () => {
   let mySwiper: any = null;
@@ -39,6 +40,7 @@ const Intro = () => {
         </section>
         <section>
           <h2>Imagen derecha</h2>
+          <InformationImage/>
         </section>
         
 
