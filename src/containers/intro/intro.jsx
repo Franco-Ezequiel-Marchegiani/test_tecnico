@@ -37,11 +37,9 @@ const Intro = () => {
 
       <div className="App">
         <section>
-          <h1>Texto izquierdo</h1>
           <InformationText/>
         </section>
         <section>
-          <h2>Imagen derecha</h2>
           <InformationImage/>
         </section>
         
