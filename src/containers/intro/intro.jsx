@@ -34,15 +34,13 @@ const Intro = () => {
       </div>
 
       <div className="App">
-        <div className="logo">
-          <img src={logo} alt="" />
-        </div>
-        <div className="title">
-          <h1>FrontEnd Utils </h1>
-        </div>
-        <div className="container-buttons">
-          <p>--- boiler ReactJS ---</p>
-        </div>
+        <section>
+          <h1>Texto izquierdo</h1>
+        </section>
+        <section>
+          <h2>Imagen derecha</h2>
+        </section>
+        
 
         <div className="slider-container">
           <div className="swiper-container">
