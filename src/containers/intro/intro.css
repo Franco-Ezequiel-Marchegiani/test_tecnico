@@ -1,3 +1,4 @@
 .contentMain{
     display: flex;
+    justify-content: center;
 }
