@@ -6,6 +6,7 @@ import "swiper/css/swiper.css";
 import { useState } from "react";
 import InformationImage from "../informationImage/informationImage";
 import InformationText from "../informationText/informationText";
+import Header from "../Header/header";
 
 const Intro = () => {
   let mySwiper: any = null;
@@ -36,12 +37,17 @@ const Intro = () => {
       </div>
 
       <div className="App">
-        <section>
-          <InformationText/>
-        </section>
-        <section>
-          <InformationImage/>
-        </section>
+        <main>
+          <section>
+            <Header/>
+          </section>
+          <section>
+            <InformationText/>
+          </section>
+          <section>
+            <InformationImage/>
+          </section>
+        </main>
         
 
         <div className="slider-container">
