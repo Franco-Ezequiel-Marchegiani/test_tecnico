@@ -40,6 +40,7 @@ const Intro = () => {
         <main>
           <section>
             <Header/>
+            
           </section>
           <section>
             <InformationText/>
