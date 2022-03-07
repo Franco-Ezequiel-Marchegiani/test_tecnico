@@ -9,6 +9,7 @@ function InformationText(){
             <button>Product Details</button>
             {/* 
             <span>Michael W.Dreeben</span>
+            <h1>Shell Dining Chair </h1>
              */}
         </div>
     )
