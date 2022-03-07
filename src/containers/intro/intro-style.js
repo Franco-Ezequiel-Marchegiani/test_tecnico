@@ -12,7 +12,6 @@ export const IntroStyle = styled.div`
     color: white;
     flex-direction: column;
     position: relative;
-    padding: 100px;
   }
 
   .logo {
