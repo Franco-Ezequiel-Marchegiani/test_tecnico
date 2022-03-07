@@ -1,4 +1,38 @@
 .footerContainerAll{
+    width: 99vw;
     color: #0f0f0f;
-    background-color: rgb(221, 221, 221);
+    background-color: #fdfdfc; 
+    border-top: #f5f5f5 2px solid;
+    padding: 0 15%;
+    display: flex;
+}
+.boxFooterContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 40px;
+    text-align: start;
+    position: relative;
+    color: #d1d1d1;
+    font-size: 12px;
+    cursor: pointer;
+}
+.active{
+    position: absolute;
+    top: -10px;
+    width: 75%;
+    border-top: #0f0f0f 2px solid;
+}
+.textFooter{
+    color: #d1d1d1;
+    
+    font-weight: 300;
+}
+.textFooterActive{
+    color: #0f0f0f;
+}
+@media only screen and (min-width: 1200px){
+    .footerContainerAll{
+        padding: 0 12%;
+    }
 }
