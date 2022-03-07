@@ -1,8 +1,12 @@
 import React from "react";
 import './informationImage.css'
+import imageChair from '../../assets/images/silla_negra.png'
+import imageTable from '../../assets/images/mesa_negra.png'
+import imageSofa from '../../assets/images/sofa_blanco.png'
 function InformationImage(){
     return(
-        <h1>InformationImage </h1>
+        <img src={imageChair} alt="" />
+        
     )
 }
 
