@@ -7,7 +7,8 @@ import { useState } from "react";
 import InformationImage from "../informationImage/informationImage";
 import InformationText from "../informationText/informationText";
 import Header from "../Header/header";
-
+import Footer from "../footer/footer";
+import './intro.css'
 const Intro = () => {
   let mySwiper: any = null;
 
@@ -38,16 +39,16 @@ const Intro = () => {
 
       <div className="App">
         <main>
-          <section>
-            <Header/>
-            
-          </section>
-          <section>
-            <InformationText/>
-          </section>
-          <section>
-            <InformationImage/>
-          </section>
+              <section>
+                  <Header/>
+              </section>
+              <section className="contentMain">
+                  <InformationText/>
+                  <InformationImage/>
+              </section>
+              <section>
+                  <Footer/> 
+              </section>
         </main>
         
 
