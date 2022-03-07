@@ -1,3 +1,19 @@
 .mainContentContainer{
     max-width: 50%;
+    text-align: start;
+    color: #000;
+}
+/* Styles of each tag */
+.spanText{
+    color: rgb(124, 124, 124);
+    font-size: 12px;
+}
+.mainTitle{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 0 32px;
+}
+.paragraph{
+    font-size: 14px;
+    width: 80%;
 }

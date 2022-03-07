@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const IntroStyle = styled.div`
   height: 100vh;
-  background: #060606;
+  background: #ffffff;
 
   .App {
     text-align: center;
