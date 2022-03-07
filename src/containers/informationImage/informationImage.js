@@ -6,7 +6,9 @@ import imageSofa from '../../assets/images/sofa_blanco.png'
 function InformationImage(){
     return(
         <img src={imageChair} alt="" />
-        
+        /* 
+        <img src={imageTable} alt="" />
+         */
     )
 }
 
