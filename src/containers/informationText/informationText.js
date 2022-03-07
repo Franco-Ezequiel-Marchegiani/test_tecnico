@@ -7,6 +7,9 @@ function InformationText(){
             <h1>Dunes Anthrazite Black </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quam, necessitatibus consectetur cum et aliquam delectus aperiam tenetur sequi vero ut! Incidunt ea numquam sapiente rerum deleniti dolorum?</p>
             <button>Product Details</button>
+            {/* 
+            <span>Michael W.Dreeben</span>
+             */}
         </div>
     )
 }
