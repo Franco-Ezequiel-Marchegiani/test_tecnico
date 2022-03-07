@@ -6,17 +6,18 @@
 /* Styles of each tag */
 .spanText{
     color: rgb(124, 124, 124);
-    font-size: 12px;
+    font-size: 14px;
 }
 .mainTitle{
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 800;
+    font-size: 24px;
     padding: 16px 0 32px;
 }
 .paragraph{
-    font-size: 14px;
+    font-size: 16px;
     width: 80%;
     margin: auto;
+    color: rgb(124, 124, 124);
 }
 .btn-detail{
     margin-top: 24px;
@@ -26,11 +27,13 @@
     border: none;
     border-radius: 2px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
 }
 @media only screen and (min-width: 769px){
     .mainContentContainer{
         max-width: 50%;
         text-align: start;
+        padding-top: 32px;
     }
     .paragraph{
         margin: 0;

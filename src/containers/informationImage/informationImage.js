@@ -5,9 +5,9 @@ import imageTable from '../../assets/images/mesa_negra.png'
 import imageSofa from '../../assets/images/sofa_blanco.png'
 function InformationImage(){
     return(
-        <img className="imageProduct" src={imageTable} alt="" />
+        <img className="imageProduct" src={imageChair} alt="" />
         /* 
-        <img className="imageProduct" src={imageChair}  alt="" />
+        <img className="imageProduct" src={imageTable} alt="" />
          */
     )
 }
