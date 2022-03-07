@@ -1,6 +1,6 @@
 .mainContentContainer{
-    max-width: 50%;
-    text-align: start;
+    max-width: 90%;
+    text-align: center;
     color: #000;
 }
 /* Styles of each tag */
@@ -16,4 +16,5 @@
 .paragraph{
     font-size: 14px;
     width: 80%;
+    margin: auto;
 }
